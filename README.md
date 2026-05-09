@@ -264,7 +264,7 @@ Copyright © 2026 Neurons AI. All rights reserved.
 
 For a friendly, side-by-side English / Tiếng Việt summary, see [LICENSE_PLAIN_ENGLISH.md](LICENSE_PLAIN_ENGLISH.md).
 
-For commercial licensing (SaaS hosting, OEM bundle, white-label), contact **[contact@neurons.ai]**.
+For commercial licensing (SaaS hosting, OEM bundle, white-label), contact **contact@neuronsai.net**.
 
 ---
 

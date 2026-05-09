@@ -31,7 +31,7 @@ The full source code is available at <https://github.com/Neurons-AI/crawbot-sour
 - **Remove or alter copyright, license, or trademark notices**
 
 ### 🤔 In doubt?
-For commercial licensing (SaaS hosting, white-label, OEM bundles), email **[contact@neurons.ai]** before you build.
+For commercial licensing (SaaS hosting, white-label, OEM bundles), email **contact@neuronsai.net** before you build.
 
 ---
 
@@ -57,7 +57,7 @@ For commercial licensing (SaaS hosting, white-label, OEM bundles), email **[cont
 - **Xóa hoặc thay đổi** thông báo bản quyền, giấy phép, nhãn hiệu
 
 ### 🤔 Không chắc?
-Để xin **giấy phép thương mại** (host SaaS, white-label, OEM bundle), vui lòng gửi email tới **[contact@neurons.ai]** trước khi bạn xây dựng sản phẩm.
+Để xin **giấy phép thương mại** (host SaaS, white-label, OEM bundle), vui lòng gửi email tới **contact@neuronsai.net** trước khi bạn xây dựng sản phẩm.
 
 ---
 
