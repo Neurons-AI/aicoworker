@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neurons-AI/crawbot-source/main/src/assets/logo.svg" width="128" height="128" alt="CrawBot Logo" />
+  <img src="assets/logo.svg" width="128" height="128" alt="CrawBot Logo" />
 </p>
 
 <h1 align="center">CrawBot</h1>
@@ -46,27 +46,27 @@ CrawBot comes pre-configured with best-practice model providers and natively sup
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neurons-AI/crawbot-source/main/resources/screenshot/chat.png" style="width: 100%; height: auto;">
+  <img src="screenshots/chat.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neurons-AI/crawbot-source/main/resources/screenshot/cron_task.png" style="width: 100%; height: auto;">
+  <img src="screenshots/cron_task.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neurons-AI/crawbot-source/main/resources/screenshot/skills.png" style="width: 100%; height: auto;">
+  <img src="screenshots/skills.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neurons-AI/crawbot-source/main/resources/screenshot/channels.png" style="width: 100%; height: auto;">
+  <img src="screenshots/channels.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neurons-AI/crawbot-source/main/resources/screenshot/dashboard.png" style="width: 100%; height: auto;">
+  <img src="screenshots/dashboard.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neurons-AI/crawbot-source/main/resources/screenshot/settings.png" style="width: 100%; height: auto;">
+  <img src="screenshots/settings.png" style="width: 100%; height: auto;">
 </p>
 
 ---
