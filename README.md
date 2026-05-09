@@ -25,6 +25,7 @@
   <img src="https://img.shields.io/badge/Facebook%20Group-CrawBot-1877F2?logo=facebook&logoColor=white" alt="Discuss on Facebook" />
   </a>
   <img src="https://img.shields.io/github/downloads/Neurons-AI/crawbot/total?color=%23027DEB" alt="Downloads" />
+  <img src="https://img.shields.io/badge/license-PolyForm%20Perimeter%201.0.0-blue" alt="License" />
 </p>
 
 <p align="center">
@@ -249,9 +250,21 @@ CrawBot is built with industry-leading technologies:
 
 ## License
 
-CrawBot is proprietary software. © 2026 Neurons AI. All rights reserved.
+CrawBot is **source-available** software released under the [PolyForm Perimeter License 1.0.0](LICENSE).
+Copyright © 2026 Neurons AI. All rights reserved.
 
-By downloading and using CrawBot, you agree to the terms outlined in the [End User License Agreement](https://github.com/Neurons-AI/crawbot/blob/main/EULA.md).
+**You're free to:**
+- Use CrawBot for free — personally or commercially within any company
+- Read, audit, and modify the [source code](https://github.com/Neurons-AI/crawbot-source) for your own or your company's internal use
+- Fork and share modifications
+
+**You're not allowed to:**
+- Resell, host, or distribute CrawBot as a competing product (e.g., SaaS hosting, white-label rebrand, hosted-API extraction of internal modules)
+- Remove copyright or license notices
+
+For a friendly, side-by-side English / Tiếng Việt summary, see [LICENSE_PLAIN_ENGLISH.md](LICENSE_PLAIN_ENGLISH.md).
+
+For commercial licensing (SaaS hosting, OEM bundle, white-label), contact **[contact@neurons.ai]**.
 
 ---
 
