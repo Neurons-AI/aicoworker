@@ -1,61 +1,77 @@
 
 <p align="center">
-  <img src="assets/logo.svg" width="128" height="128" alt="CrawBot Logo" />
+  <img src="assets/logo.svg" width="128" height="128" alt="AICoworker Logo" />
 </p>
 
-<h1 align="center">CrawBot</h1>
+<h1 align="center">AICoworker</h1>
 
 <p align="center">
-  <strong>Personal Agentic AI Assistant for non-tech users powered by OpenClaw</strong>
+  <strong>Agentic AI Assistant for knowledge work</strong>
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#why-crawbot">Why CrawBot</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#architecture">Architecture</a> •
-  <a href="#community">Community</a>
+  A real AI Coworker that runs 24/7 on your personal computer, securely accessible from anywhere,<br/>
+  and capable of completing tasks fully autonomously.
+</p>
+
+<p align="center">
+  <a href="#what-is-aicoworker">What is AICoworker</a> •
+  <a href="#what-makes-it-different">What Makes It Different</a> •
+  <a href="#capabilities">Capabilities</a> •
+  <a href="#download">Download</a> •
+  <a href="#license">License</a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-MacOS%20%7C%20Windows%20%7C%20Linux-blue" alt="Platform" />
-  <img src="https://img.shields.io/badge/electron-40+-47848F?logo=electron" alt="Electron" />
-  <img src="https://img.shields.io/badge/react-19-61DAFB?logo=react" alt="React" />
   <a href="https://www.facebook.com/groups/crawbot" target="_blank">
-  <img src="https://img.shields.io/badge/Facebook%20Group-CrawBot-1877F2?logo=facebook&logoColor=white" alt="Discuss on Facebook" />
+  <img src="https://img.shields.io/badge/Facebook%20Group-Join-1877F2?logo=facebook&logoColor=white" alt="Facebook Group" />
   </a>
-  <img src="https://img.shields.io/github/downloads/Neurons-AI/crawbot/total?color=%23027DEB" alt="Downloads" />
+  <img src="https://img.shields.io/github/downloads/Neurons-ai/AICoworker/total?color=%23027DEB" alt="Downloads" />
   <img src="https://img.shields.io/badge/license-PolyForm%20Perimeter%201.0.0-blue" alt="License" />
 </p>
 
 <p align="center">
-  English
+  English | <a href="README.vi.md">Tiếng Việt</a>
 </p>
 
 ---
 
-## Overview
+## What is AICoworker
 
-**CrawBot** bridges the gap between powerful AI agents and everyday users. Built on top of [OpenClaw](https://github.com/OpenClaw), it transforms command-line AI orchestration into an accessible, beautiful desktop experience—no terminal required.
+**AICoworker is a real AI coworker, not just another chatbot.** It lives on your own computer, works around the clock, and is reachable from anywhere — so you can hand off real knowledge work and get it done while you're away from your desk.
 
-Whether you're automating workflows, managing AI-powered channels, or scheduling intelligent tasks, CrawBot provides the interface you need to harness AI agents effectively.
+Most AI tools wait for you to type a prompt and watch the result. AICoworker is built for **delegation**: give it a goal, and it plans, uses tools, runs multi-step workflows, and reports back — on its own. Because it runs on *your* machine, it has the context, files, accounts, and tools a real coworker would have, with your data staying under your control.
 
-CrawBot comes pre-configured with best-practice model providers and natively supports Windows as well as multi-language settings. Of course, you can also fine-tune advanced configurations via **Settings → Advanced → Developer Mode**.
+- **Runs 24/7 on your personal computer** — an always-on agent that keeps working in the background, on a schedule, or in response to events, even when you're not watching.
+- **Securely accessible from anywhere** — reach your coworker through your everyday messaging apps. Send a task from your phone on the commute; it executes back at your desk.
+- **Completes tasks fully autonomously** — multi-step plans, tool use, file operations, web automation, and scheduled jobs that run to completion without hand-holding.
+
+```mermaid
+flowchart LR
+  You["📱 You — from anywhere"] -->|Telegram · WhatsApp · more| CW
+  CW["🤖 Your AI Coworker<br/>runs 24/7 on your PC"] --> B["🌐 Browser<br/>automation"]
+  CW --> V["🎙️ Voice<br/>interaction"]
+  CW --> S["⏰ Schedules &<br/>background jobs"]
+  CW --> L["🧠 Local & cloud<br/>models"]
+  CW --> F["📂 Your files,<br/>apps & tools"]
+  CW -->|results delivered back| You
+```
 
 ---
 
-## Screenshots
+## Screenshot
 
 <p align="center">
   <img src="screenshots/chat.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="screenshots/cron_task.png" style="width: 100%; height: auto;">
+  <img src="screenshots/dashboard.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="screenshots/skills.png" style="width: 100%; height: auto;">
+  <img src="screenshots/agents.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
@@ -63,7 +79,15 @@ CrawBot comes pre-configured with best-practice model providers and natively sup
 </p>
 
 <p align="center">
-  <img src="screenshots/dashboard.png" style="width: 100%; height: auto;">
+  <img src="screenshots/skills.png" style="width: 100%; height: auto;">
+</p>
+
+<p align="center">
+  <img src="screenshots/cron_task.png" style="width: 100%; height: auto;">
+</p>
+
+<p align="center">
+  <img src="screenshots/stats.png" style="width: 100%; height: auto;">
 </p>
 
 <p align="center">
@@ -72,194 +96,150 @@ CrawBot comes pre-configured with best-practice model providers and natively sup
 
 ---
 
-## Why CrawBot
+## What Makes It Different
 
-Building AI agents shouldn't require mastering the command line. CrawBot was designed with a simple philosophy: **powerful technology deserves an interface that respects your time.**
+Cloud chat assistants are rented brains in someone else's data center. AICoworker is a coworker that **lives on your machine and works for you** — which changes what it can do.
 
-| Challenge | CrawBot Solution |
-|-----------|----------------|
-| Complex CLI setup | One-click installation with guided setup wizard |
-| Configuration files | Visual settings with real-time validation |
-| Process management | Automatic gateway lifecycle management |
-| Multiple AI providers | Unified provider configuration panel |
-| Skill/plugin installation | Built-in skill marketplace and management |
+| Typical AI chatbot | AICoworker |
+|--------------------|------------|
+| Waits for each prompt, you watch it work | Delegate a goal — it plans and executes autonomously, end to end |
+| Online only, one tab at a time | Runs 24/7 in the background, on schedules, across many channels |
+| Your data lives in the cloud | Local-first — runs on your machine, your data stays with you |
+| Locked to one provider's models | Mix cloud + on-device models freely; switch per task |
+| Text in, text out | Browser automation, file ops, voice, images, and tools |
+| Reach it only from its website | Reach it from Telegram, WhatsApp, and more — from anywhere |
+| Forgets between sessions | Persistent memory and transparent, editable context |
 
-### OpenClaw Inside
+### A day with your AI Coworker
 
-CrawBot is built directly upon the official **OpenClaw** core. Instead of requiring a separate installation, we embed the runtime within the application to provide a seamless "battery-included" experience.
-
-We are committed to maintaining strict alignment with the upstream OpenClaw project, ensuring that you always have access to the latest capabilities, stability improvements, and ecosystem compatibility provided by the official releases.
-
----
-
-## Features
-
-### 🎯 Zero Configuration Barrier
-Complete the entire setup—from installation to your first AI interaction—through an intuitive graphical interface. No terminal commands, no YAML files, no environment variable hunting.
-
-### 💬 Intelligent Chat Interface
-Communicate with AI agents through a modern chat experience. Support for multiple conversation contexts, message history, and rich content rendering with Markdown.
-
-### 📡 Multi-Channel Management
-Configure and monitor multiple AI channels simultaneously. Each channel operates independently, allowing you to run specialized agents for different tasks.
-
-### ⏰ Cron-Based Automation
-Schedule AI tasks to run automatically. Define triggers, set intervals, and let your AI agents work around the clock without manual intervention.
-
-### 🧩 Extensible Skill System
-Extend your AI agents with pre-built skills. Browse, install, and manage skills through the integrated skill panel—no package managers required.
-
-### 🔐 Secure Provider Integration
-Connect to multiple AI providers (OpenAI, Anthropic, and more) with credentials stored securely in your system's native keychain.
-
-### 🌙 Adaptive Theming
-Light mode, dark mode, or system-synchronized themes. CrawBot adapts to your preferences automatically.
+```mermaid
+timeline
+  title One day — your coworker never clocks out
+  Morning  : Brief tasks by voice before leaving : Coworker starts the research on its own
+  Commute  : Send a follow-up from your phone : Tasks queue and run on your PC
+  Midday   : Monitors feeds & prices on schedule : Drafts replies, summaries, reports
+  Evening  : Results delivered to your channel : Long-running jobs keep going 24/7
+```
 
 ---
 
-## Getting Started
+## Capabilities
+
+```mermaid
+mindmap
+  root((AICoworker))
+    Autonomous
+      Multi-step execution
+      Multiple specialized agents
+    Always-on
+      Cron schedules
+      Background jobs
+    Reach from anywhere
+      Telegram
+      WhatsApp
+      More channels
+    Browser automation
+      Fills forms & clicks
+      Extracts data
+    Private & local
+      On-device LLM
+      Native keychain
+      Local-first data
+    Voice
+      Realtime speech
+      On-device TTS & STT
+    Context engineering
+      Context Inspector
+      Persistent memory
+      Editable history
+    No lock-in
+      OpenAI · Anthropic
+      xAI · Google
+      Local models
+```
+
+### 🤖 Fully Autonomous Task Completion
+Delegate a goal, not just a prompt. AICoworker decomposes work into steps, calls tools, automates the browser, reads and writes files, runs commands, and drives the whole task to completion — then reports back. Spin up **multiple specialized agents** (e.g. a researcher, a sales assistant, a legal helper), each with its own workspace, model, and personality.
+
+### 🌐 Agentic Browser Automation
+A built-in browser the agent can actually *use* — navigate sites, fill forms, click through flows, extract data, and complete web tasks the way a person would, with advanced anti-detection so real sites just work. It also unlocks web logins for AI services so the agent can act on your behalf, securely, from your own machine.
+
+### 🧠 Local LLM — Private, On-Device AI
+Run capable models **entirely on your own hardware** — no API keys, no cloud, no data leaving your computer. On-device models support **native multimodal** input (image *and* audio), GPU-accelerated, so you get a fully private assistant even offline. Mix and match: use a frontier cloud model for hard reasoning and a local model for private or high-volume work.
+
+### 🎙️ Realtime Voice Interaction
+Talk to your coworker and hear it talk back. Push-to-talk and live, low-latency speech-to-speech let you brief tasks hands-free, with both cloud realtime voice and **on-device voice (TTS + STT)** for private, offline conversations.
+
+### ⏰ Schedules & Always-On Automation
+Your coworker doesn't clock out. Schedule recurring jobs with cron-style triggers, launch long-running background tasks, and let agents work around the clock — monitoring, summarizing, and acting while you sleep. Results land in your chosen channel.
+
+### 📡 Multi-Channel — Reach It From Anywhere
+Connect everyday messaging channels (Telegram, WhatsApp, and more) so you can assign tasks and receive results wherever you are. Fire off a request from your phone on the go; it runs on your computer and replies back through the same channel.
+
+### 🔐 Enterprise-Grade Security & Privacy
+**Local-first by design.** Work runs on your own machine and your data stays with you — not on a vendor's servers. Credentials and API keys are stored in your operating system's **native secure keychain**, never in plaintext. Combined with on-device models, AICoworker is suited for sensitive and regulated knowledge work where data residency matters.
+
+### 🧩 Advanced Context Engineering
+See and control exactly what the AI is thinking about. A built-in **Context Inspector** decomposes every outgoing request so you can audit, include, or exclude content token-by-token. **Persistent session memory** keeps your coworker continuous across days, and you can **edit, add, or remove** any part of the conversation history — giving you precise control over cost, focus, and accuracy.
+
+### 🔌 Bring Your Own Models — No Lock-In
+Connect multiple AI providers (OpenAI, Anthropic, xAI/Grok, Google, on-device models, and more) and choose the right model for each task. Switch providers freely; you're never locked to a single vendor.
+
+### 🛠️ Extensible Skills
+Extend your coworker with installable skills for new abilities and integrations. Browse, install, and manage them from a visual panel — no package managers, no terminal.
+
+### 📊 Usage & Cost Insights
+A built-in stats dashboard shows where tokens go, which models and tools drive cost, and how usage trends over time — so an always-on autonomous coworker never becomes a black box.
+
+### 🎯 Zero-Config, Multi-Language Desktop App
+Install and go. A guided setup wizard takes you from install to your first autonomous task with no terminal, no config files, and no setup friction — with light/dark themes and a multi-language interface (English, Tiếng Việt, 中文, 日本語).
+
+---
+
+## Download
+
+Get the latest release for your platform — no setup, no command line:
+
+### 👉 [Download AICoworker (latest release)](https://github.com/Neurons-ai/AICoworker/releases/latest)
+
+Available for **macOS**, **Windows**, and **Linux**.
 
 ### System Requirements
 
 - **Operating System**: macOS 11+, Windows 10+, or Linux (Ubuntu 20.04+)
-- **Memory**: 4GB RAM minimum (8GB recommended)
-- **Storage**: 1GB available disk space
-
-### Installation
-
-Download the latest installer for your platform from the [Releases](https://github.com/Neurons-AI/crawbot/releases/latest) page.
-
-#### macOS
-- **Apple Silicon (M1/M2/M3/M4)**: `CrawBot-*-mac-arm64.dmg`
-- **Intel (x64)**: `CrawBot-*-mac-x64.dmg`
-
-#### Windows
-- **Installer (x64)**: `CrawBot-*-win-x64.exe`
-- **Installer (ARM64)**: `CrawBot-*-win-arm64.exe`
-
-#### Linux
-- **AppImage (x64)**: `CrawBot-*-linux-x86_64.AppImage` (recommended)
-- **AppImage (ARM64)**: `CrawBot-*-linux-arm64.AppImage`
-- **Debian/Ubuntu (x64)**: `CrawBot-*-linux-amd64.deb`
-- **Debian/Ubuntu (ARM64)**: `CrawBot-*-linux-arm64.deb`
-- **RPM (x64)**: `CrawBot-*-linux-x86_64.rpm`
-
-### Installation Notes
-
-- **macOS**: On first launch, you may see "cannot verify developer". Go to **System Preferences → Security & Privacy** to allow the app to run.
-- **Windows**: SmartScreen may block the app on first launch. Click **More info → Run anyway** to proceed.
-- **Linux**: AppImage requires executable permission: `chmod +x CrawBot-*.AppImage`
-
-### Automatic Updates
-
-CrawBot ships with a built-in updater. Once installed, the app checks this repository for new releases and prompts you to download and restart when an update is available—no manual reinstall needed.
+- **Memory**: 4GB RAM minimum (8GB recommended; more for on-device models)
+- **Storage**: 1GB available disk space (plus space for any local models you download)
 
 ### First Launch
 
-When you launch CrawBot for the first time, the **Setup Wizard** will guide you through:
+When you open AICoworker for the first time, a **Setup Wizard** guides you through:
 
-1. **Language & Region** – Configure your preferred locale
-2. **AI Provider** – Enter your API keys for supported providers
+1. **Language & Region** – Choose your preferred locale
+2. **AI Provider** – Connect your accounts or enter API keys (or pick an on-device model)
 3. **Skill Bundles** – Select pre-configured skills for common use cases
-4. **Verification** – Test your configuration before entering the main interface
+4. **Verification** – Confirm everything works before you start delegating
 
 ---
 
-## Architecture
+## Community
 
-CrawBot employs a **dual-process architecture** that separates UI concerns from AI runtime operations:
+Join our community to connect with other users, get support, and share what your coworker is getting done.
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        CrawBot Desktop App                       │
-│                                                                  │
-│  ┌────────────────────────────────────────────────────────────┐  │
-│  │              Electron Main Process                          │  │
-│  │  • Window & application lifecycle management                │  │
-│  │  • Gateway process supervision                              │  │
-│  │  • System integration (tray, notifications, keychain)       │  │
-│  │  • Auto-update orchestration                                │  │
-│  └────────────────────────────────────────────────────────────┘  │
-│                              │                                   │
-│                              │ IPC                               │
-│                              ▼                                   │
-│  ┌────────────────────────────────────────────────────────────┐  │
-│  │              React Renderer Process                         │  │
-│  │  • Modern component-based UI (React 19)                     │  │
-│  │  • State management with Zustand                            │  │
-│  │  • Real-time WebSocket communication                        │  │
-│  │  • Rich Markdown rendering                                  │  │
-│  └────────────────────────────────────────────────────────────┘  │
-└──────────────────────────────┬───────────────────────────────────┘
-                               │
-                               │ WebSocket (JSON-RPC)
-                               ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     OpenClaw Gateway                            │
-│                                                                 │
-│  • AI agent runtime and orchestration                           │
-│  • Message channel management                                   │
-│  • Skill/plugin execution environment                           │
-│  • Provider abstraction layer                                   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### Design Principles
-
-- **Process Isolation**: The AI runtime operates in a separate process, ensuring UI responsiveness even during heavy computation
-- **Graceful Recovery**: Built-in reconnection logic with exponential backoff handles transient failures automatically
-- **Secure Storage**: API keys and sensitive data leverage the operating system's native secure storage mechanisms
-- **Seamless Updates**: The integrated auto-updater keeps your installation current with the latest improvements
-
----
-
-## Use Cases
-
-### 🤖 Personal AI Assistant
-Configure a general-purpose AI agent that can answer questions, draft emails, summarize documents, and help with everyday tasks—all from a clean desktop interface.
-
-### 📊 Automated Monitoring
-Set up scheduled agents to monitor news feeds, track prices, or watch for specific events. Results are delivered to your preferred notification channel.
-
-### 💻 Developer Productivity
-Integrate AI into your development workflow. Use agents to review code, generate documentation, or automate repetitive coding tasks.
-
-### 🔄 Workflow Automation
-Chain multiple skills together to create sophisticated automation pipelines. Process data, transform content, and trigger actions—all orchestrated visually.
-
----
-
-## Powered By
-
-CrawBot is built with industry-leading technologies:
-
-- [OpenClaw](https://github.com/OpenClaw) – The AI agent runtime
-- [Electron](https://www.electronjs.org/) – Cross-platform desktop framework
-- [React](https://react.dev/) – UI component library
-
----
-
-## Support & Feedback
-
-- 🐛 **Report a bug or request a feature**: [Open an issue](https://github.com/Neurons-AI/crawbot/issues)
-- 💬 **Thảo luận về CrawBot**: [Tham gia Facebook Group](https://www.facebook.com/groups/crawbot)
-
-[![Facebook Group](https://img.shields.io/badge/Facebook%20Group-CrawBot-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/groups/crawbot)
+[![Facebook Group](https://img.shields.io/badge/Facebook%20Group-Join-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/groups/crawbot)
 
 ---
 
 ## License
 
-CrawBot is **source-available** software released under the [PolyForm Perimeter License 1.0.0](LICENSE).
+AICoworker is **source-available** software — the source is published so you can read and audit it, but it is **not open-source**. It is released under the [PolyForm Perimeter License 1.0.0](LICENSE).
 Copyright © 2026 Neurons AI. All rights reserved.
 
 **You're free to:**
-- Use CrawBot for free — personally or commercially within any company
-- Read, audit, and modify the [source code](https://github.com/Neurons-AI/crawbot-source) for your own or your company's internal use
-- Fork and share modifications
+- Use AICoworker for free — personally or commercially within any company
+- Read and audit the source code for your own or your company's internal use
 
 **You're not allowed to:**
-- Resell, host, or distribute CrawBot as a competing product (e.g., SaaS hosting, white-label rebrand, hosted-API extraction of internal modules)
+- Resell, host, or distribute AICoworker as a competing product (e.g., SaaS hosting, white-label rebrand, hosted-API extraction of internal modules)
 - Remove copyright or license notices
 
 For a friendly, side-by-side English / Tiếng Việt summary, see [LICENSE_PLAIN_ENGLISH.md](LICENSE_PLAIN_ENGLISH.md).
